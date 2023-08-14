@@ -25,19 +25,28 @@ a{
 }
 
 body{
-    margin:50px 50px;
-    position: relative;
     height: 100vh;
+    position: relative;
+    margin: 50px;
 }
 
 
 /* NAVIGATION BAR and FOOTER*/
 
 /* NAV */
-.nav-container , footer{
+nav , footer{
     display: flex;
     justify-content: space-between;
     align-items: center; 
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+nav{
     position: relative;
 }
 
